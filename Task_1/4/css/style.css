@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header, footer{
+	background: #ccc;
+	min-height: 100px;
+	margin: 20px;
+	border: solid 2px;
+}
+footer{
+	min-height: 150px;
+}
+.wrap{
+	background: #ccc;
+	border: solid 2px;
+	margin: 20px;
+}
+
+main{
+	background: #33ccff;
+	min-height: 300px;
+	border: solid 2px;
+	float: left;
+	width: 57%;
+	padding: 10px;
+	margin: 10px;
+}
+.sidebar{
+	background: #33ccff;
+	border: solid 2px;
+	min-height: 300px;
+	float: left;
+	width: 37%;
+	padding: 10px;
+	margin: 10px;
+
+}
+.clear{
+	clear: left;
+}
+
