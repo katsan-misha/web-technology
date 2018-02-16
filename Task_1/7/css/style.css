@@ -35,7 +35,7 @@ main{
 }
 
 ul{
-	padding: 15px 0 0 40px;
+	padding: 5px 0 0 40px;
 }
 
 li{
@@ -51,8 +51,13 @@ li{
 	margin-top: 20px; 
 	float: left;
 }
+.block2{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px; 
+}
 
-.block img{
+.block img, .block2 img{
 	width: 255px;
 	height: 213px;
 }
@@ -98,7 +103,7 @@ footer{
 }
 
 .content-footer1{
-	padding: 5px;
+	padding: 5px 0 10px;
 	font-weight: bold;
 	font-size: 14px;
 }
