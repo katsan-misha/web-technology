@@ -9,7 +9,7 @@ body{
 }
 
 main{
-	padding: 55px 50px 30px;
+	padding: 55px 65px 30px 50px;
 	background: #fff;
 }
 
@@ -45,34 +45,51 @@ button{
 	margin-bottom: 20px;
 }
 
+.no-centered{
+	text-align: left;
+}
 
-
-.imgBig{
-	padding: 15px 25px 25px 0;
+.imgBig1{
+	padding: 15px 50px 25px 0;
 	float: left;
 }
 
-.imgBig img{
+.imgBig2{
+	padding: 15px 0 25px 0px;
+	float: left;
+}
+
+.imgBig1 img, .imgBig2 img{
 	max-width: 316px;
 	max-height: 266px;
 }
 
-.imgBig p{
+.imgBig1 p, .imgBig2 p{
 	max-width: 316px;
 }
 
-.imgSmall{
-	padding: 0 30px 25px 0;
+.imgSmall1{
+	padding: 0 20px 25px 0;
 	float: left;
 }
 
-.imgSmall img{
-	max-width: 200px;
-	max-height: 260px;
+.imgSmall2{
+	padding: 0 20px 25px 7px;
+	float: left;
 }
 
-.imgSmall p{
-	max-width: 200px;
+.imgSmall3{
+	padding: 0 0px 25px 7px;
+	float: left;
+}
+
+.imgSmall1 img, .imgSmall2 img, .imgSmall3 img{
+	max-width: 210px;
+	max-height: 270px;
+}
+
+.imgSmall1 p, .imgSmall2 p, .imgSmall3 p{
+	max-width: 210px;
 }
 
 
