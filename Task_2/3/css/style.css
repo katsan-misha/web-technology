@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position: absolute;
+	min-width: 400px;
+	min-height: 310px;
+}
+
+.main-block{
+	background: #8CC;
+	z-index: -3;
+}
+
+.clouds{
+	background: url(../img/clouds.svg) no-repeat;
+	min-width: 250px;
+	min-height: 250px;
+	left: 150px;
+	top: -5px;
+}
+.water{
+	background: url(../img/water.svg) no-repeat;
+	min-width: 400px;
+	min-height: 400px;
+	top: 280px;
+	z-index: 1;
+}
+.wooden-ship{
+	background: url(../img/wooden-ship.svg) no-repeat;
+	min-width: 78px;
+	min-height: 78px;
+	top: 208px;
+	left: 15px;
+}
+.world{
+	background: url(../img/world.svg) no-repeat;
+	min-width: 400px;
+	min-height: 400px;
+	top: 70px;
+	z-index: -2;
+}
