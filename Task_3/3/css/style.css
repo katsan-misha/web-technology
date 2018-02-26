@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fullwrap{
+	background-image: url("../img/body-bg.png") ;
+	background-repeat: repeat-x;
+	height: 175px;
+
+}
+header{
+	max-width: 950px;
+	width: 100%;
+	margin: auto;
+}
+img{
+	position: relative;
+	top: 30px;
+}
+.menu{
+	border-bottom: 2px solid #D2DEE4;
+	position: relative;
+	top: 50px;
+	padding-bottom: 8px;
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+	background: #F3F6F7;
+	font-size: 13px;
+	font-family: Arial;
+	margin: 0 1px 1px 0;
+	padding: 10px 15px;
+	font-weight: 600;
+}
+
+#active{
+	background: #D2DEE4;
+}
+
+.menu a:hover, #active:hover{
+	background: #AABEC5FF;
+}
+
+.menu a:active, #active:active{
+	color: white;
+}
