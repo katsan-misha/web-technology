@@ -1,0 +1,112 @@
+@font-face{
+	font-family: "Crimson-Regular";
+	src: ("../fonts/CrimsonText-Regular.ttf");
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #271e20;
+	font-family: Crimson-Regular;
+}
+
+.fullwrap{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 1150px;	
+	background: #fff;
+}
+.main-img{
+	color: white;
+	text-transform: uppercase;
+	position: relative;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+
+.main-img img{
+	display: block;
+	max-width: 330px;
+}
+.popup-win{
+	background: #000;
+	width: 340px;
+	height: 210px;
+	position: absolute;
+	bottom: 25px;
+	right: 5px;
+}
+.attention{
+	padding: 40px 65px 30px 64px;
+	text-align: center;
+	line-height: 0.9;
+	font-weight: bold;
+}
+.big-text{
+	font-size: 40px;
+}
+.yellow{
+	color: #fdca19
+}
+.upper{
+	text-transform: uppercase;
+}
+
+.main{
+	float: left;
+	text-align: center;
+	width: 800px;
+}
+
+.top-block{
+	margin-top: 30px;
+	font-size: 22px;
+}
+.list{
+	padding: 35px 80px 40px 70px;
+	position: relative;
+}
+.element{
+	width: 210px;
+	height: 85px;
+	padding: 20px 40px 5px 40px;
+	font-size: 24px;
+	border-bottom: 2px solid #d5d5d5;
+}
+.element:after{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #999;
+	transform: rotate(45deg);
+	margin-top: 31px;
+}
+
+.le{
+	float: left;
+}
+.ri{
+	float: right;
+}
+.cost-bur{
+	color: #999999
+}
+.butt{
+	position: relative;
+}
+button{
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	padding: 15px 30px;
+	background: #000;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
