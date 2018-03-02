@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+table{
+	border-collapse: collapse;
+	width: 250px;
+	margin: 0 auto;
+	border-left: 3px solid #DDDDDDFF;
+	border-right: 3px solid #DDDDDDFF;
+	border-top: 3px solid #67CB71FF;
+	border-bottom: 3px solid #67CB71FF;
+	text-align: center;
+	font-family: fantasy;
+}
+
+.tarif{
+	font-size: 25px;
+	font-weight: bold;
+	color: #67CB71FF;
+	padding: 15px;
+}
+.money{
+	background: #67CB71FF;
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 7px;
+}
+.opt{
+	color: #8F8BA5FF;
+	font-size: 12px;
+	padding: 9px;
+}
+
+tr:nth-child(2n){
+	background: #F7F7F7FF;
+}
+
+button{
+	background: #fff;
+	margin: 25px;
+	padding: 5px 10px;
+	border: 2px solid #67CB71FF;
+	border-radius: 5px;
+	color: #67CB71FF;
+	font-weight: bold;
+}

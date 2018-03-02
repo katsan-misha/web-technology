@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+td{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+}
+
+.land{
+	padding-left: 10px;
+	text-align: left;
+	color: white;
+	background: #A3CEE9FF;
+
+}
+.count{
+	background: #D3E7F4FF;
+	text-align: center;
+}
+.top{
+	text-align: center;
+}
+.bol{
+	font-weight: bold;
+}

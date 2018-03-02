@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.panel-top{
+	border-radius: 5px 5px 0 0 ;
+	background: linear-gradient(to top right, #7EBA3DFF, #9DD826FF);
+}
+
+.panel-left{
+	border-radius: 5px 0 0 5px ;
+	background: linear-gradient(to top left, #79C23EFF , #9BD82CFF);
+}
+
+.b{
+	padding: 15px 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #858585;
+}
+
+.bb{
+	padding: 25px;
+}
+.block{
+	color: white; 
+}
+
+.block-contant{
+	border-radius: 1px;
+	background: #E1F2C9FF;
+}
+
+.zn{
+	color: #A5CC24FF;
+	font-size: 30px;
+	font-weight: bold;
+	-webkit-text-stroke: 1px #75AC29FF;
+	text-shadow: 1px 1px #75AC29FF;
+}

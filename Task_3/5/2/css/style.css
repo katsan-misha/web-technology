@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding: 0;
+}
+table{
+	border-collapse: collapse;
+	width: 550px;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+td, th{
+	border: 1px solid #000;
+}
+
+.main{
+	color: white;
+	background: #81B522FF;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content{
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+.content:nth-child(2n-1){
+	background: #EFFFD3FF;
+}
+
+.content:nth-child(2n){
+	background: #E5FFB8FF;
+}
