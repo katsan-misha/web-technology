@@ -1,0 +1,192 @@
+@font-face{
+	font-family: "Myriad Pro Semibold";
+	src: ("../fonts/Myriad Pro Semibold.ttf");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #719EBBFF;
+	font-family: Verdana, Arial;
+}
+.fullwrap{
+	background: white;
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header{
+	background: url(../img/masthead.png) no-repeat; 
+	padding: 10px;
+	color: #1a2853;
+	font-family: Myriad Pro Semibold;
+}
+.main-txt{
+	margin-left: 20px;
+}
+.head-h1{
+	text-transform: uppercase;
+}
+.main-txt h2{
+	color: #7e8285;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.logo{
+	float: left;
+}
+.main-txt{
+	float: left;
+}
+.higher{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+main{
+	line-height: 24px;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+.bg{
+	background: #DFE6ECFF;
+}
+ul{
+	margin: 10px;
+	padding-left: 25px; 
+}
+ul li{
+	font-size: 13px;
+	line-height: 24px;
+}
+.content{
+	padding: 20px;
+	width: 58%;
+}
+.content h3{
+	color: #1a2853;
+}
+.partners{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.part{
+	font: bold 13px/18px Verdana,Arial,Helvetica,sans-serif;
+	margin-bottom: 15px;
+}
+.forms{
+	position: absolute;
+	top: 140px;
+	right: 40px;
+	-webkit-box-shadow: 0px 4px 20px 5px #C1BBBB;
+	box-shadow: 0px 4px 20px 5px #C1BBBB;
+	border: 5px solid #DFE6EC;
+	background-color: #fff;
+	width: 300px;
+}
+.forms img{
+	margin: -5px;
+}
+.learn-more{
+	background: #CD1920;
+	margin: -5px;
+	margin-top: 2px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+.learn-more p{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.learn-more .big{
+	text-transform: none;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 5px 40px 5px 40px;
+}
+form{
+	margin: 12px auto;
+	width: 290px;
+	padding-left: 15px;
+}
+::-moz-placeholder{
+	color: #999;
+}
+::-webkit-input-placeholder{
+	color: #999;
+}
+form span{
+	font-weight: bold;
+	position: relative;
+	top: -5px;
+	padding-left: 3px;
+}
+form p, form span{
+	margin-top: 20px;
+	color: #C03;
+	font-size: 12px;
+}
+form input, form select{
+	margin-top: 10px;
+	padding: 5px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	width: 85%;
+}
+form select{
+	width: 90%;
+}
+form button{
+	width: 90%;
+	margin-top: 10px;
+	background: #127DD0FF;
+	padding: 10px;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.content-footer{
+	padding: 20px 30px;
+	margin: 20px 0 0;
+	color: #1a2853;
+}
+.foot1, .foot2{
+	font-size: 12px;
+	line-height: 24px;
+	width: 48%;
+}
+.foot1{
+	float: left;
+}
+.foot2{
+	float: right;
+}
+footer{
+	background: #719EBBFF;
+	text-align: center;
+	width: 310px;
+	margin: 0 auto;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+	padding: 20px;
+}
+footer a:first-child{
+	text-transform: uppercase;
+}
