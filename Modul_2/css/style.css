@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.fuulwrap{
+	height: 100vh;
+}
+.maincub{
+	height: 400px;
+	width: 400px;
+	background: red;
+	position: absolute;
+	bottom: 0;
+}
+.tri{
+	width: 0;
+	height: 0;
+	border-left: 50px solid #0000;
+	border-right: 50px solid #0000;
+	border-bottom: 100px solid green;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.cub1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #28D;
+	right: 0;
+	visibility: hidden;
+
+}
+.cub2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #28D;
+	right: 0;
+	margin-right: 100px;
+	visibility: hidden;
+}
