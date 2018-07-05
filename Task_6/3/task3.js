@@ -1,5 +1,4 @@
 function getTopLetter(text) {
-    arr = [];
     var maxx = 0, indexmax = 0;
     for(var i = 0; i < text.length; i++){
       var col = 0; 
